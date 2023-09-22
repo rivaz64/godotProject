@@ -18,3 +18,7 @@ config/icon="res://icon.svg"
 [dotnet]
 
 project/assembly_name="GodotProject"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/myeditor/plugin.cfg")
